@@ -1,9 +1,8 @@
 This project is to mod a gcb95 crybaby pedal.
 
-The guitar pedal is found [here](https://www.long-mcquade.com/123/Guitars/Guitar-Effects/Dunlop/Original-Cry-Baby-Wah.htm). There a numerous sources online that can explain what this pedal is, so read those if interested as this project is not meant to cover that information. Instead this will cover modifications being mad to this pedal.
+The guitar pedal is found [here](https://www.long-mcquade.com/123/Guitars/Guitar-Effects/Dunlop/Original-Cry-Baby-Wah.htm). There a numerous sources online that can explain what this pedal is, so read those if interested as this project is not meant to cover that information. Instead this will cover modifications being made to this pedal.
 
-The pedal itself is known to be what is 'non true bypass' meaning that when the pedal is off, a buffer circuit inside is still connected causing 
-what is known as 'tone suck' to a guitar pedal chain. A pedal chain is just a series of guitar pedals connected together that work to create
+The pedal itself has a circuit incorporated that is 'non true bypass' meaning that when the pedal is off, a buffer circuit inside is still connected between the circuit input and output causing what is known as 'tone suck' to a guitar pedal chain. A pedal chain is just a series of guitar pedals connected together that work to create
 a unique sound for the effects that a guitar player will created when connected to it. Tone suck is bad as it means that even when a pedal is turned
 off, part of the guitar sound will be affected by the pedal, and sometimes causes the overall sound to not be what is desired simply from having this
 circuit present in the chain.
