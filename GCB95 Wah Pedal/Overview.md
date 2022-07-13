@@ -10,7 +10,7 @@ circuit present in the chain.
 
 A common mod is known as a 'true bypass' mod. This mod essentially skips this buffer circuit or 'bypasses' it, so that the signal in the guitar effect chain goes directly from pedal input to output, thus not allowing any of the buffer circuit to influence the rest of the guitar pedal chain when the pedal is turned off.
 
-This was one of the mods done to the pedal. Another mod was to change the effect type of the pedal itself. The gcb95 is a wah pedal but a simple circuit modification transforms it into a volume pedal instead. A wah pedal is basically, and envelope filter effect the gives a guitar a funky sound, like what Jimi Hendrix would often use. A volume pedal is much simpler, as the name suggests, it adjusts the volume of the signal chain. Both these effects serve their purpose so there is a desire to have the ability to use both.
+This was one of the mods done to the pedal. Another mod was to change the effect type of the pedal itself. The gcb95 is a wah pedal but a simple circuit modification transforms it into a volume pedal instead. A wah pedal is basically an envelope filter effect the gives a guitar a funky sound, like what Jimi Hendrix would often use. A volume pedal is much simpler, as the name suggests, it adjusts the volume of the signal chain. Both these effects serve their purpose so there is a desire to have the ability to use both.
 
 The mods done are:
 - True Bypass
