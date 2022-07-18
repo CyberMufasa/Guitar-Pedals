@@ -1,11 +1,9 @@
 # LEDS
 For the leds included, resistors must be chosen appropriately that support the expected current draw based on color.
-I based the resistance values on the standard current draws for each led color based on [listed specs from sparkfun](https://www.sparkfun.com/products/9590#:~:text=A%20must%20have%20for%20power,rated%20forward%20current%20of%2020mA)
+I based the resistance values on the standard current draws for each led color based on listed specs from sparkfun.
 
-[hrtr]
-(https://www.sparkfun.com/products/11372#:~:text=It%20has%20a%20typical%20forward,rated%20forward%20current%20of%2030mA)
-red - 20mA
-blue - 30mA
+- [red](https://www.sparkfun.com/products/9590#:~:text=A%20must%20have%20for%20power,rated%20forward%20current%20of%2020mA) - 20mA
+- [blue](https://www.sparkfun.com/products/11372#:~:text=It%20has%20a%20typical%20forward,rated%20forward%20current%20of%2030mA) - 30mA
 
 The resistances were calculated using the standard voltage formula V=IR -> R=V/I leading to:
 Red: R = 9V/20mA = 450 Ohm
@@ -13,18 +11,11 @@ Blue: R = 9V/30mA = 300 Ohm
 I did not have those exact values so a combination of resistors in placed in series was used from what I had available. As long as they are close to the above values, it is fine. It must not be less, but more is good, I may even increase what I did use as the brightness is a little high for my liking.
 
 # Switches
-The switches chosen were to be 3PDT format with nine lugs to have room to also include the leds. This article provides a good explanation on what they are and how they work.
-https://www.coda-effects.com/2015/03/3pdt-and-true-bypass-wiring.html
+The switches chosen were to be 3PDT format with nine lugs to have room to also include the leds. This [article](https://www.coda-effects.com/2015/03/3pdt-and-true-bypass-wiring.html) provides a good explanation on what they are and how they work. [This](https://www.amazon.ca/gp/product/B07547HKMQ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) is the exact set and model that I bought.
 
-This is the exact set and model that I bought:
-https://www.amazon.ca/gp/product/B07547HKMQ/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+I always got confused on which orientation the toggle action actually changed (which set of 3 lugs connect to the middle set when pressing the switch), I used my DMM to measure the connection to determine which set of 3 pins would short circuit (be connected) when I pressed this switch.
 
- I always got confused on which orientation the toggle action actually changed (which set of 3 lugs connect to the middle set when pressing the switch), I used my DMM to measure the connection to determine which set of 3 pins would short circuit (be connected) when I pressed this switch.
-
-The existing switch in the Wah pedal appears to be this one from visual inspection:
-https://www.jimdunlop.com/on-off-double-pole-double-throw-large-switch-d-logo-mxr-cry-baby/
-
-Both sides if this switch in my pedal had the toggle points soldered together while other models I saw from pictures and videos did not. This appears to not actually matter, the only thing that comes to mind on why mine is different is that during manufacture, they were likely taken in bulk and soldered together for other purposes and one of these was placed in my pedal since it was available.
+The existing switch in the Wah pedal appears to be [this one](https://www.jimdunlop.com/on-off-double-pole-double-throw-large-switch-d-logo-mxr-cry-baby/) from visual inspection. Both sides if this switch in my pedal had the toggle points soldered together while other models I saw from pictures and videos did not. This appears to not actually matter, the only thing that comes to mind on why mine is different is that during manufacture, they were likely taken in bulk and soldered together for other purposes and one of these was placed in my pedal since it was available.
 
 # The mods
 I followed the directions outlined on the websites linked earlier for the circuit setup.
