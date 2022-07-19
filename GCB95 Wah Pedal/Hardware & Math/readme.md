@@ -32,5 +32,9 @@ At first, I wanted to only add the led and do the volume/wah mod but after seein
 	NOTE: I did break one of the legs of the original capacitor, so I needed to use a new one. It was noted that the original was rated for 100V which I learned is actually not very common for that size. After some research, it appears that most guitar pedals will reach maybe 30V if they are consuming a ton of voltage. I found capacitors of that size were commonly only rated for 50V and used that instead since the above explanation implies it is a cross within the bounds of the expected circuit operation.
 
 2. The second mod was the true bypass mod as indicated by [this website](http://www.danieleturani.com/howto-and-diy/convert-crybaby-wah-pedal-to-true-bypass/). The circuit layout including the red LED was replicated as exactly outlined in the website. Where the same led power and return path used in the other mod was used, and the contents of that buffer circuit were completely removed. 
+
+<p align="center">
+<img src= "Photo%20Dump/pre_truebypass.jpg" width = "400">
+</p>
 	
 3. Future plans are to put the components removed from this buffer circuit on the same perfboard as the capacitor with a switch added and connected back into the connection on the pcb where the true bypass components were removed to allow a toggle between buffered and true bypass modes.
