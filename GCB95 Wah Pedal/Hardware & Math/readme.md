@@ -38,17 +38,17 @@ At first, I wanted to only add the led and do the volume/wah mod but after seein
 
 	For the 'effect' circuit to be connected to this same 3PDT switch, I took out the 4.7uF capacitor, shown in [this website](https://www.instructables.com/Modify-Your-Wah-Pedal/), and soldered a new capacitor to a small perf board. 
 
-<p align="center">
-<img src= "../Photo%20Dump/lifted_cap.jpg" width = "400">	
-</p>
-<p align = "center">
+	<p align="center">
+	<img src= "../Photo%20Dump/lifted_cap.jpg" width = "400">	
+	</p>
+	<p align = "center">
 	<em>Perfboard with capacitor soldered onto it.</em>
-</p>
+	</p>
 
 	
-The positive side of where the capacitor was originally in the PCB had a wire soldered on to it, taken to a different center lug on the 3PDT switch, and one side lug in that same row went to the positive end of capacitor on the perfboard, and the negative end of the capacitor on this perfboard went to the negative terminal of the original position of the capacitor on the PCB. The other side lug in this same row on the 3PDT switch was left as open circuit, which is doing the same thing as if removing this capacitor as outline in the linked website. The leds return path is connected on the side lug of the 3PDT switch with the open circuit so that it turns on when the switch 'lifts' the capacitor or open circuit the connection engaging the 'volume' mode of the pedal. 
+	The positive side of where the capacitor was originally in the PCB had a wire soldered on to it, taken to a different center lug on the 3PDT switch, and one side lug in that same row went to the positive end of capacitor on the perfboard, and the negative end of the capacitor on this perfboard went to the negative terminal of the original position of the capacitor on the PCB. The other side lug in this same row on the 3PDT switch was left as open circuit, which is doing the same thing as if removing this capacitor as outline in the linked website. The leds return path is connected on the side lug of the 3PDT switch with the open circuit so that it turns on when the switch 'lifts' the capacitor or open circuit the connection engaging the 'volume' mode of the pedal. 
 
-NOTE: I did break one of the legs of the original capacitor, so I needed to use a new one. It was noted that the original was rated for 100V which I learned is actually not very common for that size. After some research, it appears that most guitar pedals will reach maybe 30V if they are consuming a ton of voltage. I found capacitors of that size were commonly only rated for 50V and used that instead since the above explanation implies it is a cross within the bounds of the expected circuit operation.
+	NOTE: I did break one of the legs of the original capacitor, so I needed to use a new one. It was noted that the original was rated for 100V which I learned is actually not very common for that size. After some research, it appears that most guitar pedals will reach maybe 30V if they are consuming a ton of voltage. I found capacitors of that size were commonly only rated for 50V and used that instead since the above explanation implies it is a cross within the bounds of the expected circuit operation.
 
 2. The second mod was the true bypass mod as indicated by [this website](http://www.danieleturani.com/howto-and-diy/convert-crybaby-wah-pedal-to-true-bypass/). The circuit layout including the red LED was replicated as exactly outlined in the website. Where the same led power and return path used in the other mod was used, and the contents of that buffer circuit were completely removed. 
 
