@@ -17,7 +17,16 @@ The switches chosen were to be 3PDT format with nine lugs to have room to also i
 
 I always got confused on which orientation the toggle action actually changed (which set of 3 lugs connect to the middle set when pressing the switch), I used my DMM to measure the connection to determine which set of 3 pins would short circuit (be connected) when I pressed this switch.
 
-The existing switch in the Wah pedal appears to be [this one](https://www.jimdunlop.com/on-off-double-pole-double-throw-large-switch-d-logo-mxr-cry-baby/) from visual inspection. Both sides if this switch in my pedal had the toggle points soldered together while other models I saw from pictures and videos did not. This appears to not actually matter, the only thing that comes to mind on why mine is different is that during manufacture, they were likely taken in bulk and soldered together for other purposes and one of these was placed in my pedal since it was available.
+The existing switch in the Wah pedal appears to be [this one](https://www.jimdunlop.com/on-off-double-pole-double-throw-large-switch-d-logo-mxr-cry-baby/) from visual inspection. 
+
+<p align="center">
+<img src= "../Photo%20Dump/original_switch.jpg" width = "400">	
+</p>
+<p align = "center">
+	<em>Dunlop switch.</em>
+</p>
+
+Both sides if this switch in my pedal had the toggle points soldered together while other models I saw from pictures and videos did not. This appears to not actually matter, the only thing that comes to mind on why mine is different is that during manufacture, they were likely taken in bulk and soldered together for other purposes and one of these was placed in my pedal since it was available.
 
 # The mods
 I followed the directions outlined on the websites linked earlier for the circuit setup.
@@ -34,7 +43,33 @@ At first, I wanted to only add the led and do the volume/wah mod but after seein
 2. The second mod was the true bypass mod as indicated by [this website](http://www.danieleturani.com/howto-and-diy/convert-crybaby-wah-pedal-to-true-bypass/). The circuit layout including the red LED was replicated as exactly outlined in the website. Where the same led power and return path used in the other mod was used, and the contents of that buffer circuit were completely removed. 
 
 <p align="center">
-<img src= "Photo%20Dump/pre_truebypass.jpg" width = "400">
+<img src= "../Photo%20Dump/pre_truebypass.jpg" width = "400">	
 </p>
-	
+<p align = "center">
+	<em>PCB with buffer circuit.</em>
+</p>
+
+
+<p align="center">
+<img src= "../Photo%20Dump/remove_buffer.jpg" width = "400">	
+</p>
+<p align = "center">
+	<em>PCB with buffer circuit removed.</em>
+</p>
+
+<p align="center">
+<img src= "../Photo%20Dump/top_switch.jpg" width = "400">	
+</p>
+<p align = "center">
+	<em>Replaced top foot switch.</em>
+</p>
+
+
+<p align="center">
+<img src= "../Photo%20Dump/bottom.jpg" width = "400">	
+</p>
+<p align = "center">
+	<em>Bottom of the PCB where power, ground and the spliced in sections for the wet/dry effect were done.</em>
+</p>
+
 3. Future plans are to put the components removed from this buffer circuit on the same perfboard as the capacitor with a switch added and connected back into the connection on the pcb where the true bypass components were removed to allow a toggle between buffered and true bypass modes.
