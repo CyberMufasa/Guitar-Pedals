@@ -1,2 +1,3 @@
 # Guitar-Pedal-Mods
-Guitar pedals that I add mods to.
+Guitar pedals related work.
+This includes guitar pedal mods and projects related to guitar pedal circuit design and assembly.
